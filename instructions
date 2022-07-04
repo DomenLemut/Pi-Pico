@@ -1,0 +1,18 @@
+Tutorial:
+
+-------------------------------------------
+You must have CMakeLists.txt 
+and pico_sdk_import.cmake 
+predefined before executing 
+any commands.
+-------------------------------------------
+-------------------------------------------
+1. write cmake .. to make a make file while
+   in build directory
+
+2. then reun make to create a .elf file
+   which can be read by Raspberry pi Pico
+-------------------------------------------
+
+
+And you are all set :-)

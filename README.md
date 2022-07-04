@@ -7,7 +7,7 @@
 </br>
 </br>
 
-This is where i keep all of the code and other things for raspberry pi projects.
+This is where i keep all of the code and other things for raspberry pi Pico projects.
 
 </br>
 
