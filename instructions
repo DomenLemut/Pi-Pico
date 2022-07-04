@@ -1,9 +1,12 @@
 Tutorial:
 
+previous to all of what i mention below you must have your pico-sdk 
+directory cloned from github and your export set up.
+
 ...........................................
 You must have CMakeLists.txt 
 and pico_sdk_import.cmake in
-the folder whitin the build
+the same folder as the build
 folder before executing any
 commands.
 
@@ -14,10 +17,11 @@ given example it is named
 blink).
 ...........................................
 
-1. write "cmake .." to make a make file while
-   in build directory
+1. move to /build directory in command line
 
-2. then run "make" to execute make script and
+2. write "cmake .." to make a Makefile
+
+3. then run "make" to execute Makefile and
    make a .uf2 file which can be read by
    Raspberry pi Pico as an usb flash file
    
