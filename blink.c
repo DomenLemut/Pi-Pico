@@ -3,7 +3,7 @@
 
 #define ON 1
 #define OFF 0
-#define SLEEP 2000
+#define SLEEP 1000
 
 #define LED_PIN 25
 

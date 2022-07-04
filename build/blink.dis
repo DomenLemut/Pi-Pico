@@ -378,11 +378,11 @@ Disassembly of section .text:
 1000036c:	6265      	str	r5, [r4, #36]	; 0x24
 1000036e:	20fa      	movs	r0, #250	; 0xfa
 10000370:	6165      	str	r5, [r4, #20]
-10000372:	00c0      	lsls	r0, r0, #3
+10000372:	0080      	lsls	r0, r0, #2
 10000374:	f000 fca6 	bl	10000cc4 <sleep_ms>
 10000378:	20fa      	movs	r0, #250	; 0xfa
 1000037a:	61a5      	str	r5, [r4, #24]
-1000037c:	00c0      	lsls	r0, r0, #3
+1000037c:	0080      	lsls	r0, r0, #2
 1000037e:	f000 fca1 	bl	10000cc4 <sleep_ms>
 10000382:	e7f4      	b.n	1000036e <main+0x12>
 
