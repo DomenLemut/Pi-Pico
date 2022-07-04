@@ -2,21 +2,24 @@ Tutorial:
 
 ...........................................
 You must have CMakeLists.txt 
-and pico_sdk_import.cmake 
-in the folder with build folder
-before executing any commands.
+and pico_sdk_import.cmake in
+the folder whitin the build
+folder before executing any
+commands.
 
 In CMakeLists.txt you must
 correct the name of the 
-input/output file if (int the 
-example it is named blink).
+input/output file if (in 
+given example it is named
+blink).
 ...........................................
 
 1. write "cmake .." to make a make file while
    in build directory
 
-2. then run "make" to create a .uf2 file
-   which can be read by Raspberry pi Pico
+2. then run "make" to execute make script and
+   make a .uf2 file which can be read by
+   Raspberry pi Pico as an usb flash file
    
 ...........................................
 
