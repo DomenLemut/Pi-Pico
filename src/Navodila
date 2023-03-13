@@ -1,0 +1,16 @@
+NAVODILA:
+
+1. kopiraj template
+
+2. kodo pisi v code.c
+
+3. v build folderju izvedite
+"export PICO_SDK_PATH=/home/domen/pico-sdk"
+
+nato...
+
+"cmake .."
+
+za tem
+
+"make"
